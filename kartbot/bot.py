@@ -56,9 +56,7 @@ async def google_search(ctx, *argv):
     for arg in argv:
     	search_text+=" "+str(arg)
     search_text = search_text.strip()
-    print('search_text', search_text)
     search_result = search_on_google(search_text)
-    print('search_result', search_result)
     if len(search_result) < 1:
     	await ctx.send('No item found')
     else:
