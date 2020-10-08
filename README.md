@@ -16,12 +16,15 @@ Steps to be followed for deployment :
 Note: Above Env variables are specific for Chatbot implementation with Cloud MongoDB Database & Google Cloud. 
 Variables can be different according to the deployment of different databases and servers.
 
-2. To Run project on dev mode locally run command:
+2. Go to requirements.txt direcoty and Run following command to install requiremments (preferably in a vitualenv). 
+$ pip install -r requirements.txt  
+
+3. To Run project on dev mode locally run command:
 $ python manage.py runserver
 
-3. One can use any WSGI server or DJango WSGI to deploy it on any server( Like Heroku, AWS, GCP etc.)
+4. One can use any WSGI server or DJango WSGI to deploy it on any server( Like Heroku, AWS, GCP etc.)
 
-4. Once the Kartbot App is up and running go to your guild where you want to integrate this bot, use the specific Disscord App Token and you are good to go :P
+5. Once the Kartbot App is up and running go to your guild where you want to integrate this bot, use the specific Disscord App Token and you are good to go :P
 
 
 
