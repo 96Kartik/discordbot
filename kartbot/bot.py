@@ -11,10 +11,7 @@ load_dotenv()
 
 # to allow commands without prefix from local server/guild (in our case chatbot)
 def command_prefix(bot, message):
-    if message.guild is None:
-        return ''
-    else:
-        return '!'
+    return ''
 
 bot = commands.Bot(command_prefix=command_prefix)
 
