@@ -16,7 +16,7 @@ Steps to be followed for deployment :
 Note: Above Env variables are specific for Chatbot implementation with Cloud MongoDB Database & Google Cloud. 
 Variables can be different according to the deployment of different databases and servers.
 
-2. Go to requirements.txt direcoty and Run following command to install requiremments (preferably in a vitualenv). 
+2. Go to the direcoty where requirements.txt is and Run following command to install requirements (preferably in a python3.4.3^ vitualenv). 
 $ pip install -r requirements.txt  
 
 3. To Run project on dev mode locally run command:
