@@ -10,7 +10,7 @@ load_dotenv()
 
 def store_search_history(search_text, author):
     """Method to store Search Queries on the Database"""
-	db.history.insert_one({'text':search_text, "user":author.name})
+    db.history.insert_one({'text':search_text, "user":author.name})
 
 
 def get_search_history_by_keywords(search_text, author):
